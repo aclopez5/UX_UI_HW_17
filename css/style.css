@@ -1,0 +1,93 @@
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    margin: 0px 120px;
+    padding: 1%;
+    text-align: center;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 54px;
+    margin: 0px 155px;
+    float: right;
+}
+nav li a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav li a:hover {
+    color: #A30003;
+    transition: 0.3s;
+}
+section {
+    display: flex;
+    justify-content: flex-end;
+}
+h1 {
+    position: absolute;
+    margin: 60px 172px;
+    height: 48px;
+    left: 172px;
+    top: 181px;
+    font-size: 47px;
+}
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+.bio {
+    display: inline-block;
+    position: absolute;
+    width: 538px;
+    height: 610px;
+    margin: 200px 250px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 30px;
+}
+.bio p {
+    font-size: 20px;
+}
+.btn {
+    background-color: #A30003;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 64px;
+    border: 2px solid transparent;
+    margin: 40px 150px;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+.btn:hover {
+    transform: scale(1.2);
+}
+footer {
+    background-color: #2A2E2E;
+    position: absolute;
+    width: 1320px;
+    height: 167px;
+    left: 60px;
+    top: 1237px;
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1%;
+}
+footer p {
+    text-align: center;
+}
