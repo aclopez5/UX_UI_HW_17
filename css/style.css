@@ -94,18 +94,21 @@ h3 {
 .btn:hover {
     transform: scale(1.2);
 }
+
 /* footer css */
 footer {
     background-color: #2A2E2E;
     display: flex;
-    width: 93%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     height: 150px;
-    margin-top: 300px;
+    margin-top: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 footer ul {
     display: flex;
-    align-items: center;
+    width: 100%;
 }
 footer li a {
     padding-right: 30px;
@@ -116,18 +119,46 @@ footer li a {
 footer li a:hover {
     font-weight: bold;
 }
+.col3 {
+    padding-left: 40px;
+}
 .CR {
     margin: auto;
+    padding: 0 50px;
     color: #08A4AF;
     font-size: 20px;
 }
-.iconify {
+.col1 {
+    padding-right: 30px;
+}
+footer .iconify {
     color: #08A4AF;
     width:36px;
     height: 36px;
-    padding-right: 40px;
+    display: flex;
+    float: left;
+    padding: 0 15px;
     transition: transform 0.3s;
 }
-.iconify:hover {
+footer .iconify:hover {
     transform: scale(1.2);
+}
+
+/* responsive footer */
+@media only screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+    }
+    .col2 {
+        margin: 30px;
+    }
+    .CR {
+        font-size: 16px;
+    }
+    .col1 {
+        padding-right: 0;
+    }
 }
